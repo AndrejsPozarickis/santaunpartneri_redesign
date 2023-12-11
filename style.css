@@ -1,7 +1,47 @@
-ul {
-    list-style-type: none;
+#logo-element a img {
+    height: 83px;
+    width: auto;
 }
 
-h1 {
-    font-size: 3em;
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E4E1DC;
+    position: relative;
+}
+
+#navbar li {
+    float: left;
+    display: block;
+}
+  
+#navbar .navbar-element {
+    background-color: #8D6F5A;
+}
+  
+#navbar .navbar-element a {
+    display: block;
+    color: white;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+  
+#navbar .navbar-element a:hover {
+    background-color: rgb(107, 84, 67)
+}
+
+#lang-select img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#lang-select div {
+    top: 50%;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 10px;
 }
